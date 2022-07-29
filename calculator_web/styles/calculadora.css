@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background: linear-gradient(to right,#B2EBF2, #0097A7 );
+}
+#app {
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid;
+    color: red;
+    background-color: #2E4053;
+    border-radius: 15px;
+    height: 420PX;
+    box-shadow: 0 0 40px;
+}
+img {
+    position: relative;
+    bottom: 60px;
+}
+
+#div-input {
+    display: grid;
+    padding: 15px;
+}
+#div-input input {
+    width: 240px;
+    height: 50px;
+    text-align: right;
+    border-radius: 20px;
+    border: none;
+    font-size: 40px;
+}
+.container-submits {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    margin-left: 15px;
+}
+.container-submits input {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 6px;
+    border: none;
+    font-size: 20px;
+    box-shadow:0 0 50px;
+}
+.container-submits input:hover {
+    transform: scale(1.2);
+}
+.container-submits-a {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    margin-left: 15px;
+}
+.container-submits-a input {
+    margin: 6px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow:0 0 50px;
+}
+.container-submits-a input:hover {
+    transform: scale(1.2);
+}
+.inp-equals {
+    width: 110px;
+    height: 50px;
+}
+.div-title {
+    position: relative;
+    display: inline-block;
+    bottom: 400px;
+}
+/*.div-title h1{*/
+/*    padding: 0;*/
+/*}*/
+
