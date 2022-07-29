@@ -185,8 +185,9 @@ restart.addEventListener('click', function () {
 //de forma aprendizage cree un elemto img para agregarlo al html
 const divImagen = document.querySelector('.div-img');
 const logo = document.createElement('img');
-logo.src = '../public/cooltext416345541170665.png';
+logo.src = './cooltext416345541170665.png';
 divImagen.appendChild(logo);
+
 
 
 
