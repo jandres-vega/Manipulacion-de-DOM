@@ -1,5 +1,5 @@
 import {products} from './modules/info.js';
-import { searchProduct, handleSelectPrice, handleSelect } from './modules';
+import { searchProduct, handleSelectPrice, handleSelect } from './modules/index.js';
 
 let arrayItems = []
 let containerCard
