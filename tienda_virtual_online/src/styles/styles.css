@@ -106,7 +106,7 @@ estilos de links de menu
     background-color: #f8f8f8;
     box-shadow:  2px 5px 10px;
     border-radius: 15px;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 10px;
 }
 .div-left label {
@@ -119,8 +119,11 @@ estilos de links de menu
 .div-cards {
     width: 100%;
     text-align: center;
-    height: 85%;
-    margin: 100px;
+    height: 80%;
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-left: 50px;
+
     overflow-y: scroll;
     background-color: #f8f8f8;
     box-shadow:  5px 5px 10px black;
@@ -139,15 +142,17 @@ estilos de links de menu
 .div-container-card span {
     font-size: 25px;
     position: relative;
+    left: 20px;
     top: 30px;
     right: 100px;
 }
 .div-container-card img {
     position: relative;
-    left: 50px;
+    left: 80px;
     width: 200px;
     height: 200px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .div-container-card img:hover {
     transform: scale(1.1);
@@ -167,6 +172,26 @@ estilos de links de menu
     display: inline-block;
     width: 100px;
     height: 30px;
+    margin-left: 10px;
     background-color: #B2EBF2;
+}
+.cont {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    color: red;
+    border-radius: 40%;
+}
+.addButton {
+    background-color: #08c1ff;
+    position: relative;
+    top: 25px;
+    right: 200px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+}
+.addButton:hover {
+    background-color: #f8f8f8;
 }
 

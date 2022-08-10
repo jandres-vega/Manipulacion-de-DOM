@@ -1,5 +1,5 @@
 
-const products = {
+export const products = {
     longitud: 30,
     category: ["pantalones, camisas, zapatos"],
     productsEcommerce: [
@@ -426,25 +426,5 @@ const products = {
     ],
 }
 
-
-let ordenado = (ordenado) => {
-
-    console.log(ordenado)
-
-    return ordenado === 'orden' ?
-        products.productsEcommerce.sort(function (a, b) {
-            if (a.price > b.price) return 1;
-            if (b.price > a.price) return -1;
-            return 0;
-        }) :
-        products.productsEcommerce.sort(function (a, b) {
-            if (a.price < b.price) return 1;
-            if (b.price < a.price) return -1;
-            return 0;
-        })
-
-}
-
-
 //otra forma de exportar
-export {products, ordenado}
+// export {products, ordenado}
