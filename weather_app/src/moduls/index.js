@@ -1,6 +1,5 @@
-const URL = 'http://api.weatherapi.com/v1/current.json?key=9b407824343b4eb2887145332221108';
+const URL = 'https://api.weatherapi.com/v1/current.json?key=9b407824343b4eb2887145332221108';
 
-let divArrays = [];
 
 let cardWeather;
 
@@ -43,35 +42,35 @@ export async function renderDom() {
     let info = await infoApi(country);
     if (info === "error"){
         inputSearch.value = '';
-        return alert('No se encuentra la ciudad')
+        return alert('No se encuentra la ciudad');
     }
 
     cardWeather = document.createElement('div');
     cardWeather.className = 'div-card';
 
     let nameCountry = document.createElement('h3');
-    nameCountry.textContent = info.nameCountry
+    nameCountry.textContent = info.nameCountry;
 
     let nameCity = document.createElement('h4');
-    nameCity.textContent = info.nameCity
+    nameCity.textContent = info.nameCity;
 
     let icon = document.createElement('img');
     icon.src = info.icon
 
     let temperature = document.createElement('span');
-    temperature.textContent = info.temperature
+    temperature.textContent = info.temperature;
 
     let nameText = document.createElement('p');
     nameText.textContent = info.nameText;
-    btnDelete = document.createElement('button')
-    btnDelete.textContent = 'X'
-    btnDelete.className = 'btn-delete'
+    btnDelete = document.createElement('button');
+    btnDelete.textContent = 'X';
+    btnDelete.className = 'btn-delete';
 
     cardWeather.append(nameCountry,btnDelete, nameCity, temperature,icon, nameText);
-    divArrays.push(cardWeather);
 
-    divContainers.append(...divArrays)
-    deleteCard(divArrays)
+
+    divContainers.appendChild(cardWeather)
+    deleteCard()
     inputSearch.value = '';
 
 }
