@@ -1,7 +1,5 @@
 const URL = 'http://api.weatherapi.com/v1/current.json?key=9b407824343b4eb2887145332221108';
 
-let divArrays = [];
-
 let cardWeather;
 
 let btnDelete
@@ -19,6 +17,7 @@ async function infoApi (country) {
                 'Access-Control-Allow-Origin': '*',
             }
         })
+        console.log(res)
         if (res.status === 400) {
             return 'error'
         }else {
@@ -68,10 +67,8 @@ export async function renderDom() {
     btnDelete.className = 'btn-delete'
 
     cardWeather.append(nameCountry,btnDelete, nameCity, temperature,icon, nameText);
-    divArrays.push(cardWeather);
-
-    divContainers.append(...divArrays)
-    deleteCard(divArrays)
+    divContainers.appendChild(cardWeather)
+    deleteCard()
     inputSearch.value = '';
 
 }

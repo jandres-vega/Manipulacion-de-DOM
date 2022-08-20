@@ -1,13 +1,10 @@
 import {renderDom} from './moduls/index.js';
 
 
-let submit = document.querySelector('.div-form button')
-
-// let btnDelete = document.querySelector('.btn-delete')
+let submit = document.querySelector('.div-form button');
 
 submit.addEventListener('click', renderDom)
 
-// console.log(btnDelete)
 
 
 
