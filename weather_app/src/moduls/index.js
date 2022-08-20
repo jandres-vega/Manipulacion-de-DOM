@@ -1,4 +1,4 @@
-const URL = 'http://api.weatherapi.com/v1/current.json?key=9b407824343b4eb2887145332221108';
+const URL = 'https://api.weatherapi.com/v1/current.json?key=9b407824343b4eb2887145332221108';
 
 let cardWeather;
 
