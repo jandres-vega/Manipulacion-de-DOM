@@ -13,7 +13,12 @@ let inputSearch = document.querySelector('.div-form input');
 
 async function infoApi (country) {
     try {
-        const res = await  fetch(`${URL}&q=${country}`)
+        const res = await  fetch(`${URL}&q=${country}`, {
+            'mode': 'cors',
+            'headers': {
+                'Access-Control-Allow-Origin': '*',
+            }
+        })
         if (res.status === 400) {
             return 'error'
         }else {
