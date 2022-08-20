@@ -1,6 +1,6 @@
 let search = document.querySelector('.div-search');
-//function para el input de search
-const searchProduct = (array) => {
+
+export const searchProduct = (array) => {
     return function () {
          array.forEach(item => {
              let input = search.value;
@@ -12,8 +12,8 @@ const searchProduct = (array) => {
          })
     }
 }
-//funcion para filtrar por categoria
-const handleSelect = ( array) => {
+
+export const handleSelect = ( array) => {
     return function (e) {
         array.forEach(index => {
             if (e.target.value === 'pants'){
@@ -34,8 +34,7 @@ const handleSelect = ( array) => {
     }
 }
 
-//funcion para ordenar los productos por precio
-let handleSelectPrice = (array, card) => {
+export let handleSelectPrice = (array, card) => {
 
     return function (e) {
         let orden = e.target.value;
@@ -68,10 +67,5 @@ let handleSelectPrice = (array, card) => {
             })
         }
     }
-}
-export {
-    searchProduct,
-    handleSelectPrice,
-    handleSelect
 }
 
