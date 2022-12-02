@@ -1,0 +1,214 @@
+:root {
+    --letra-span: #2196F3;
+    --letra-promo: #21F343
+}
+@font-face {
+    font-family: ejemplo;
+    src: url("fonts/letra1.ttf")
+}
+@font-face {
+    font-family: description;
+    src: url("fonts/parrafos.ttf")
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.nav-header {
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.div-input-search{
+    position: relative;
+    padding: 10px;
+}
+.div-input-search input {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+.icon {
+    position: absolute;
+    right: 14px;
+    top: 13px;
+}
+.icon .fa-solid{
+    font-size: 25px;
+    color: #c8c8c8;
+    cursor: pointer;
+}
+
+.icon-user .fa-solid{
+    font-size: 25px ;
+    margin: 20px;
+    cursor: pointer;
+}
+.div-bar{
+    display: none;
+    border: none;
+    background: none;
+}
+/*******************************************/
+.section-main {
+    background-color: #efefef;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.container-menu {
+    padding-top: 40px;
+}
+.container-menu ul {
+    list-style: none;
+}
+.container-menu li {
+    display: inline-block;
+}
+.container-menu a {
+    font-family: ejemplo, serif;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+.container-menu li:hover, li.active {
+    transform: scale(1.3);
+    transition: .4s;
+}
+/*****************************************************/
+.container-detail {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+            "item1 item2"
+            "item1 item2"
+            "item1 item2"
+            "item1 item2"
+            "item1 item2";
+}
+.div-img-detail {
+    width: 400px;
+    height: 400px;
+    justify-self: center;
+    align-self: center;
+    grid-area: item1;
+
+}
+.div-img-detail img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+/****************************************************/
+.div-Count span{
+    margin-right: 20px;
+}
+.description {
+    font-family: description, serif;
+    font-size: 25px;
+}
+
+
+/*************************************************/
+.section-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100px;
+    justify-items: center;
+}
+.fa-solid {
+    font-size: 30px;
+}
+.fa-brands {
+    font-size: 30px;
+    margin: 15px;
+}
+.red-social p {
+    color: var(--letra-span);
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+.call {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.call span {
+    color: var(--letra-span);
+}
+.call p {
+    margin: 0;
+}
+.call .fa-solid {
+    margin-top: 10px;
+    margin-right: 3px;
+}
+/*****************************************/
+
+@media screen and (max-width:700px) {
+    .container-detail {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+            "item1"
+            "item2"
+            "item3"
+            "item4"
+            "item5"
+            "item6";
+    }
+    .div-img-detail {
+        grid-area: item2;
+    }
+    .div-img-detail img {
+        width: 85%;
+        height: 85%;
+        border-radius: 20px;
+    }
+
+}
+@media screen and (max-width: 580px) {
+    .section-footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-menu li {
+        display: block;
+        margin-top: 20px;
+    }
+    .div-multimedia video {
+        width: 300px;
+        height: 250px;
+    }
+    .div-multimedia {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .div-login-car{
+        display: none;
+    }
+    .div-bar{
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    .nav-toggle {
+        position: fixed;
+    }
+}
+@media screen and (max-width: 760px) {
+    .div-input-search {
+        display: none;
+    }
+    .nav-header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
