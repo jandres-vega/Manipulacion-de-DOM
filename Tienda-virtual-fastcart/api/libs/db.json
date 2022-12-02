@@ -1,0 +1,168 @@
+{
+  "products": [
+    {
+      "name": "Huevos Campesinos",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/huevos_gajydf.png",
+      "price": 2.8,
+      "amount": 12,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Tomates Rojos",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/tomates_gvc0ye.png",
+      "price": 3.7,
+      "amount": 5,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Helado de Maracuya",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/helado_tmylaj.png",
+      "price": 5.5,
+      "amount": 10,
+      "categoryId": 4
+    },
+    {
+      "id": 4,
+      "name": "Manzanas Rojas",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1669078348/superMarket/Products/Manzana-roja_zj9juu.svg",
+      "price": 4.8,
+      "amount": 3,
+      "categoryId": 8
+    },
+    {
+      "id": 5,
+      "name": "Galletas de avena",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/galletas_kmr05v.png",
+      "price": 8.8,
+      "amount": 4,
+      "categoryId": 5
+    },
+    {
+      "id": 6,
+      "name": "Coca-cola light",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/coca-cola_euf8tn.png",
+      "price": 8.4,
+      "amount": 15,
+      "categoryId": 6
+    }
+  ],
+  "favorites": [],
+  "shoppingCart": [
+    {
+      "id": 2,
+      "name": "Tomates Rojos",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/tomates_gvc0ye.png",
+      "price": 3.7,
+      "amount": 5,
+      "categoryId": 1,
+      "amountCart": 2
+    },
+    {
+      "id": 3,
+      "name": "Helado de Maracuya",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/helado_tmylaj.png",
+      "price": 5.5,
+      "amount": 10,
+      "categoryId": 4,
+      "amountCart": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "Vegetables",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668892348/superMarket/icons/vegetables_gsrgja.svg"
+    },
+    {
+      "id": 2,
+      "category": "Meats",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668892347/superMarket/icons/meat_fnncv0.svg"
+    },
+    {
+      "id": 3,
+      "category": "breakfast",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668892347/superMarket/icons/breakfast_heptbl.svg"
+    },
+    {
+      "id": 4,
+      "category": "Frozen",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668892347/superMarket/icons/frozen_pbyeha.svg"
+    },
+    {
+      "id": 5,
+      "category": "Grocery",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668892347/superMarket/icons/Grocery_jw9ur2.svg"
+    },
+    {
+      "id": 6,
+      "category": "Drinks",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668892347/superMarket/icons/drinks_pmsmzb.svg"
+    },
+    {
+      "id": 7,
+      "category": "Biscuis",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668892347/superMarket/icons/biscuis_yw3sje.svg"
+    },
+    {
+      "id": 8,
+      "category": "fruits",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668951597/superMarket/icons/frutas_jsighj.svg"
+    }
+  ],
+  "orden_compra": [
+    {
+      "name": "juan",
+      "address": "sdfsdfsfs",
+      "phone": "3242432",
+      "shopping": [
+        {
+          "id": 2,
+          "name": "Tomates Rojos",
+          "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/tomates_gvc0ye.png",
+          "price": 3.7,
+          "amount": 5,
+          "categoryId": 1,
+          "amountCart": 2
+        },
+        {
+          "id": 3,
+          "name": "Helado de Maracuya",
+          "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668808733/superMarket/Products/helado_tmylaj.png",
+          "price": 5.5,
+          "amount": 10,
+          "categoryId": 4,
+          "amountCart": 1
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "promos": [
+    {
+      "id": 1,
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668815384/superMarket/promos/Captura_de_pantalla_308_bqw87a.png"
+    },
+    {
+      "id": 2,
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668815384/superMarket/promos/Captura_de_pantalla_312_cbsqkp.png"
+    },
+    {
+      "id": 3,
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668815384/superMarket/promos/Captura_de_pantalla_309_pmkpn5.png"
+    },
+    {
+      "id": 4,
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668815384/superMarket/promos/Captura_de_pantalla_313_hultul.png"
+    },
+    {
+      "id": 5,
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668815384/superMarket/promos/Captura_de_pantalla_314_zbmcgg.png"
+    },
+    {
+      "id": 6,
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668815384/superMarket/promos/Captura_de_pantalla_307_suh5fy.png"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "Inmobiliaria": [
+    {
+      "id": 1,
+      "nameInmueble": "Local",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668122757/inmobiliaria/casas%2Cfincas%2Capartamentos%20etc/Captura_de_pantalla_291_hkiycv.png",
+      "address" : "150 A Lapam Cr, New York, TA\n50250, USA",
+      "areaInmueble": "50.8",
+      "bedrooms": 1,
+      "bathing": 2,
+      "price": "125.000.000",
+      "parking": false,
+      "tipoInmuebleId": 3,
+      "ubicacionId": 3,
+      "description": "Injury of other specified nerves of thorax, initial encounter",
+      "propietario" : 3
+    },
+    {
+      "id": 2,
+      "nameInmueble": "Apartamento",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668122749/inmobiliaria/casas%2Cfincas%2Capartamentos%20etc/Captura_de_pantalla_287_ngeovq.png",
+      "address" : "352 O Cansas Kr, Benecia, OS\n25896, USA",
+      "areaInmueble": "120",
+      "bedrooms": 4,
+      "bathing": 2,
+      "price": "250.000.000",
+      "parking": true,
+      "tipoInmuebleId": 2,
+      "ubicacionId": 2,
+      "description": "Nondisplaced fracture of distal phalanx of left thumb, subsequent encounter for fracture with delayed healing",
+      "propietario" : 1
+    },
+    {
+      "id": 3,
+      "nameInmueble": "casa",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668122748/inmobiliaria/casas%2Cfincas%2Capartamentos%20etc/Captura_de_pantalla_288_lyqsev.png",
+      "address" : "425 Z Esperia TA, Beverly Hills, CA\n90212, USA",
+      "areaInmueble": "85.2",
+      "bedrooms": 2,
+      "bathing": 2,
+      "price": "130.000.00",
+      "parking": false,
+      "tipoInmuebleId": 1,
+      "ubicacionId": 4,
+      "description": "Nondisplaced spiral fracture of shaft of ulna, right arm, subsequent encounter for closed fracture with nonunion",
+      "propietario" : 2
+    },
+    {
+      "id": 4,
+      "nameInmueble": "Casa",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668122749/inmobiliaria/casas%2Cfincas%2Capartamentos%20etc/Captura_de_pantalla_281_s07fr5.png",
+      "address" : "255 H Texas TR, Cansas , CA\n4545, USA",
+      "areaInmueble": "45.2",
+      "bedrooms": 2,
+      "bathing": 1,
+      "price": "800.000",
+      "parking": true,
+      "tipoInmuebleId": 1,
+      "ubicacionId": 3,
+      "description": "Nondisplaced spiral fracture of shaft of ulna, right arm, subsequent encounter for closed fracture with nonunion",
+      "propietario" : 3
+    },
+    {
+      "id": 5,
+      "nameInmueble": "Apartamneto",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668122748/inmobiliaria/casas%2Cfincas%2Capartamentos%20etc/Captura_de_pantalla_290_dpolzy.png",
+      "address" : "285 B Huston Dr, San Diego, XA\n28979, USA",
+      "areaInmueble": "48.5",
+      "bedrooms": 3,
+      "bathing": 2,
+      "price": "1.000.000",
+      "parking": true,
+      "ubicacionId": 1,
+      "tipoInmuebleId": 2,
+      "description": "Unspecified disseminated chorioretinal inflammation, left eye",
+      "propietario" : 3
+    },
+    {
+      "id": 6,
+      "nameInmueble": "Casa",
+      "image": "https://res.cloudinary.com/cloudmulti/image/upload/v1668122748/inmobiliaria/casas%2Cfincas%2Capartamentos%20etc/Captura_de_pantalla_289_t3monc.png",
+      "address" : "310 G San Francisco FR, Venecia , VE\n29856, USA",
+      "areaInmueble": "100",
+      "bedrooms": 4,
+      "bathing": 3,
+      "ubicacionId": 2,
+      "price": "150.000.000",
+      "parking": false,
+      "tipoInmuebleId": 1,
+      "description": "Synovial hypertrophy, not elsewhere classified, left shoulder",
+      "propietario" : 2
+    }
+  ],
+  "tipoInmueble": [
+    {
+      "id": 1,
+      "name": "Casa",
+      "description": "sin description"
+    },
+    {
+      "id": 2,
+      "name": "Apartamento",
+      "description": "sin description"
+    },
+    {
+      "id": 3,
+      "name": "Local comercial",
+      "description": "sin description"
+    },
+    {
+      "id": 4,
+      "name": "Finca",
+      "description": "sin description"
+    }
+  ],
+  "propietario": [
+    {
+      "id": 1,
+      "name-propietario": "Juan Vargas",
+      "contact": "30255544848"
+    },
+    {
+      "id": 2,
+      "name-propietario": "Carlos Gomez",
+      "contact": "60154544848"
+    },
+    {
+      "id": 3,
+      "name-propietario": "Anguie contreras",
+      "contact": "525448485464"
+    }
+  ],
+  "ubicacion": [
+    {
+      "id": 1,
+      "ciudad": "San Francisco",
+      "imagen": "sin Imagen"
+    },
+    {
+      "id": 2,
+      "ciudad": "San Diego",
+      "imagen": "sin Imagen"
+    },
+    {
+      "id": 3,
+      "ciudad": "Los Angeles",
+      "imagen": "sin Imagen"
+    },
+    {
+      "id": 4,
+      "ciudad": "Los Settles",
+      "imagen": "sin Imagen"
+    }
+  ]
+}
